@@ -1,5 +1,6 @@
-# gc-wien
-GiftCard demo application as live coded at DDD/Microservices Vienna on 3 May 2018
+# gc-helsinki
+GiftCard Axon demo application,
+fully written in Kotlin.
 
 ## Running this application
 
@@ -18,9 +19,7 @@ EventBus.
 Edit pom.xml, comment in the dependency on 
 io.axoniq:axonhub-spring-boot-autoconfigure. 
 Download the free developer editions of AxonDB and AxonHub from
-https://axoniq.io, and run them (which you may do through
-Docker as explained in docker-platform, or straight on
-your own machine).
+https://axoniq.io, and run them.
 
 Now, you still have one instance of your application
 but it will use an AxonHubCommandBus, AxonHubQueryBus
@@ -32,9 +31,7 @@ AxonHub.
 You can create many instances of the application and run them in
 parallel. There are a few properties in application.properties that
 allow you to enable or disable the GUI, Command-Side and Query-Side
-separately. You could do this through Docker and Kubernetes as well.
-For the demo in Vienna, I set up a Kubernetes cluster through Google
-Cloud Platform, which is a really easy way of getting it done.
+separately. 
 
 The free Developer editions of AxonDB and AxonHub run a single nodes
 only. If you want to experiment with more advanced configs like AxonDB
