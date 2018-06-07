@@ -1,6 +1,6 @@
 # gc-helsinki
-GiftCard Axon demo application,
-fully written in Kotlin.
+GiftCard Axon demo application.
+Tech stack: Axon 3, Spring Boot, Kotlin, front-end using Vaadin
 
 ## Running this application
 
